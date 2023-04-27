@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
   <head>
-     <title>khashayar.ir</title>
+     <title>khashayaar.ir</title>
      <style>
 *{
     padding:0;
@@ -81,7 +81,15 @@ span , p{
   
      </style>
   </head>
-  <body> 
+  <body>
+      <?php
+        if(user_is-logged()){
+            echo' ! در سایت وارد شده اید';
+        }
+        else{
+            echo' لطفا در سایت وارد شوید';
+        }
+       ?>
       <div class='top'>
           <nav>
          <ul>
