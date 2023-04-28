@@ -54,7 +54,7 @@ button{
     margin-left: 4px;
     cursor: pointer;
 }
-.footer1{
+.footer-site{
     background-color: black;
     color: white;
     font-family: IRYekan;
@@ -63,4 +63,22 @@ button{
 }
 button:hover{
     background-color: blue;
+}
+ li {
+    list-style-type: none;
+     display: inline-block;
+     float: right;
+}
+ .menu a{
+    text-decoration: none;
+    color:white;
+    font-family: IRYekan;
+     padding:15px;
+
+}
+.menu{
+    background-color: blue;
+    padding: 5px;
+    width: 100%;
+    float: right;
 }
